@@ -1,0 +1,11 @@
+<% if current_user %>
+  <%= render "ribbits/new_form" %>
+<% end %>
+
+<div class="pannel left">
+  <h1> Public Profiles </h1>
+  <%= @users.each do |user| %>
+    <div class="ribbitWrapper">
+    </div>
+  <% end %>
+</div>
