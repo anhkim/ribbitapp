@@ -5,8 +5,8 @@
     <span class="name"><%= @user.name %></span> @<%= @user.username %>
     <p>
       XX Ribbits
-      <span class="spacing"> XX Followers </span>
-      <span class="spacing"> XX Following </span>
+      <span class="spacing"> <%= @user.followers.length%> Followers </span>
+      <span class="spacing"> <%= @user.followeds.length%> Following </span>
     </p>
   </div>
 </div>
